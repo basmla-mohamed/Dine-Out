@@ -1,0 +1,3350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-------------------------HEAD-------------------------------->
+<head>
+  <!-------------------------META-------------------------------->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Basmala">
+<meta name="keywords" content="restaurant, dine out, food, menu, dining, healthy food, fast food, lunch, fresh meals">
+<meta name="description" content="Dine Out Restaurant offers a unique dining experience with delicious meals, fresh ingredients, and a cozy atmosphere.">
+<title>Dine Out</title>
+  <!-------------------------LINKS-------------------------------->
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/keyframes.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/index.responsive.css">
+<link rel="icon" href="./images/icons/hamburger-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+  <!-------------------------BODY-------------------------------->
+<body>
+  <!-------------------------HOME-------------------------------->
+<section id="home">
+  <!-------------------------NAV BAR-------------------------------->
+<nav class="navbar navbar-dark bg-transparent position-absolute w-100 z-3">
+<div class="container">
+<img src="./images/logo.png" alt="Dine Out Logo" class="logo h-auto">
+<button class="navbar-toggler border-0 position-relative p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+<span class="one position-absolute bg-light"></span>
+<span class="two position-absolute bg-light"></span>
+<span class="three position-absolute bg-light"></span>
+</button>
+<div class="offcanvas offcanvas-start text-bg-dark py-3" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+<div class="offcanvas-header d-flex pt-3 justify-content-between align-items-center">
+<img src="./images/logo.png" alt="Dine Out Logo">
+<button class="close-btn bg-transparent border-0 text-light fs-1 fw-medium p-0 d-flex justify-content-center align-items-center lh-1" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+<span class="d-block">×</span>
+</button>
+</div>
+<div class="offcanvas-body">
+<ul class="navbar-nav mb-5">
+<li class="nav-item overflow-hidden">
+<a class="nav-link active" href="#home">Home</a>
+</li>
+<li class="nav-item overflow-hidden">
+<a class="nav-link d-block position-relative" href="#About">About</a>
+</li>
+<li class="nav-item overflow-hidden">
+<a class="nav-link d-block position-relative" href="#testimonials">Testimonials</a>
+</li>
+<li class="nav-item overflow-hidden">
+<a class="nav-link d-block position-relative" href="#menu">Our Menu</a>
+</li>
+<li class="nav-item overflow-hidden">
+<a class="nav-link d-block position-relative" href="#chefs">Team</a>
+</li>
+<li class="nav-item overflow-hidden">
+<a class="nav-link d-block position-relative" href="#order">Order Now</a>
+</li>
+</ul>
+<div class="social-box">
+<div class="social-items d-flex column-gap-5 position-relative overflow-hidden">
+<a href="#home" class="social-link bg-light d-flex justify-content-center align-items-center position-absolute">
+<i class="fa-brands fa-facebook"></i>
+</a>
+<a href="#home" class="social-link bg-light d-flex justify-content-center align-items-center position-absolute">
+<i class="fa-brands fa-instagram"></i>
+</a>
+<a href="#home" class="social-link bg-light d-flex justify-content-center align-items-center position-absolute">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+<a href="#home" class="social-link bg-light d-flex justify-content-center align-items-center position-absolute">
+<i class="fa-brands fa-twitter"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+  <!-------------------------CAROUSEL-------------------------------->
+<div id="heroCarousel" class="carousel slide " data-bs-interval="5000">
+<div class="carousel-inner">
+<div class="carousel-item overflow-hidden active slide-one position-relative overflow-x-hidden overflow-y-hidden text-light">
+<div class="slide-bg">
+<div class="container slide-content d-flex justify-content-center align-items-center text-light text-center flex-column">
+<h1>Dine Out Restaurant</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt suscipit deserunt similique ab corporis dolores quia omnis adipisci et mollitia.</p>
+<a href="#menu" class="main-btn d-inline-block position-relative overflow-hidden">
+<span>Our Menu</span>
+</a>
+</div>
+</div>
+</div>
+<div class="carousel-item overflow-hidden slide-two w-100 h-100 position-relative text-light">
+<div class="container h-100 position-relative">
+<div class="row h-100 align-items-center">
+<div class="col-md-6">                                         <!--من اول md يبقى 6 اعمدة غير كده 12-->
+<div class="offer-content text-center">
+<div class="pizza-image position-relative">
+<img src="./images/pizza.png" class="img-fluid">
+</div>
+<p class="offer-title lh-1 position-relative">BUY GET<br>ONE FREE</p>               <!--BREAK to new line-->
+<div class="offer-box">
+<span class="line d-block w-100"></span>
+<p class="text">Aliquam laoreet orci quis risus vulputate tempor. Quisque aliquet mattis tortor nibh cursus lorem.</p>
+<p class="phone">+02 010 948 91 010</p>
+<a href="#about" class="main-btn d-inline-block position-relative overflow-hidden">
+<span class="position-relative">About Us</span>
+</a>
+<span class="line"></span>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="pizza-main">
+<img src="./images/pz.png" class="img-fluid">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="carousel-item overflow-hidden slide-three">
+<div class="container h-100">
+<div class="row h-100 align-items-center">
+<div class="col-md-6">
+<div class="burger-image">
+<img src="./images/bg.png" class="img-fluid">
+</div>
+</div>
+<div class="col-md-6">
+<div class="burger-content position-relative">
+<p class="title">ENJOY BURGER<br>MAKE YOUR TUMMY HAPPY</p>          <!--BREAK new line-->
+<span class="line d-block"></span>
+<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+<div class="food-icons d-flex column-gap-5">
+<div class="food-item">
+<img src="./images/icons/delicious-icon.png" alt="Delicious">
+<h3>Delicious</h3>
+</div>
+<div class="food-item">
+<img src="./images/icons/fresh-icon.png" alt="Fresh">
+<h3>Fresh</h3>
+</div>
+<div class="food-item">
+<img src="./images/icons/organic-icon.png" alt="Organic">
+<h3>Organic</h3>
+</div>
+</div>
+<a href="#menu" class="main-btn d-inline-block position-relative overflow-hidden">
+<span>Our Menu</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  <!-------------------------CAROUSEL INDICATORS-------------------------------->
+<button class="carousel-control-prev custom-control" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next custom-control" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</section>
+
+  <!-------------------------ALL-------------------------------->
+<section id="all" class="overflow-auto">              <!--overflow-auto عشان الاسكرول في الشاشات الصغيرة-->
+<div class="row collection d-flex flex-nowrap m-0 text-center text-light w-100">         
+<div class="col category border-start-0">
+<div class="icon-box m-auto">
+<img src="./images/icons/pizza-icon.png" class="img-fluid">
+</div>
+<h4 class="mt-2">Pizza</h4>
+</div>
+<div class="col category">
+<div class="icon-box m-auto">
+<img src="./images/icons/hamburger-icon.png" class="img-fluid">
+</div>
+<h4 class="mt-2">Burgers</h4>
+</div>
+<div class="col category">
+<div class="icon-box m-auto">
+<img src="././images/icons/chicken-icon.png" class="img-fluid">
+</div>
+<h4 class="mt-2">Chicken</h4>
+</div>
+<div class="col category">
+<div class="icon-box m-auto">
+<img src="./images/icons/taco-icon.png" class="img-fluid">
+</div>
+<h4 class="mt-2">Taco</h4>
+</div>
+<div class="col category">
+<div class="icon-box m-auto">
+<img src="./images/icons/salad-icon.png" class="img-fluid">
+</div>
+<h4 class="mt-2">Salad</h4>
+</div>
+<div class="col category">
+<div class="icon-box m-auto">
+<img src="./images/icons/fried-potatoes-icon.png" class="img-fluid">
+</div>
+<h4 class="mt-2">Fries</h4>
+</div>
+<div class="col category ">
+<div class="icon-box m-auto">
+<img src="./images/icons/drink-icon.png" class="img-fluid">
+</div>
+<h4 class="mt-2">Drinks</h4>
+</div>
+</div>
+</section>
+  <!-------------------------ABOUT-------------------------------->
+<section id="About" class="py-5">
+<div class="container">
+<div class="head mb-5">
+<h4>Our Story</h4>
+<p class="text-light fs-2 fw-bold">About Us</p>
+<div class="decoration d-flex justify-content-center align-items-center">
+<span class="bg-light d-block"></span>
+<img src="./images/btm-style.png" alt="">
+<span class="bg-light"></span>
+</div>
+</div>
+<div class="content mt-5">
+<div class="row">
+<div class="col-md-6 info">
+<div class="box text-start">
+<h4>Who We Are ?</h4>
+<p class="text-start  fw-bold fs-3 text-light">BEST FOOD IDEAS & TRADITIONS FROM THE WHOLE WORLD</p>
+<span class="line d-block"></span>
+<p class="base text-light "> Back in 2000, three Kiwi guys including world-renowned chef Peter Moor set up the first Gloreya Burger Kitchen in Battersea, South London Burger Kitchen in</p>
+<div class="row mb-3">
+<div class="col-6 text-light">
+<div class="feature d-flex align-items-center gap-3">
+<div class="check-icon">
+<img src="./images/icons/check-icon.png" class="img-fluid w-100">
+</div>
+<h3 class="m-0 fs-6 fs-lg-3">Quality products</h3>
+</div>
+</div>
+
+<div class="col-6 text-light">
+<div class="feature d-flex align-items-center gap-3">
+<div class="check-icon">
+<img src="./images/icons/check-icon.png" class="img-fluid w-100">
+</div>
+<h3 class="m-0 fs-6 fs-lg-3">Fastest delivery</h3>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-6 text-light">
+<div class="feature d-flex align-items-center gap-3">
+<div class="check-icon">
+<img src="./images/icons/check-icon.png" class="img-fluid w-100">
+</div>
+<h3 class="m-0 fs-6 fs-lg-3">World’s best Chef</h3>
+</div>
+</div>
+
+<div class="col-6 text-light">
+<div class="feature d-flex align-items-center gap-3">
+<div class="check-icon">
+<img src="./images/icons/check-icon.png" class="img-fluid w-100">
+</div>
+<h3 class="m-0 fs-6 fs-lg-3">Great Location</h3>
+</div>
+</div>
+
+<a href="#menu" class="text-decoration-none mt-3 overflow-hidden d-block position-relative ">
+<span>Our Menu</span>
+</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6 image d-flex justify-content-center align-items-center">
+<div class="frame position-relative overflow-hidden rounded rounded-5 d-block text-center">             <!--BORDER-->
+<img src="./images/about-img.jpg" class="img-fluid">
+<span class="experience-bg position-absolute top-50 start-50 text-center"></span>
+<h3 class="position-absolute top-50 start-50 experience-text text-black">20+ Years Experience</h3>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+  <!-------------------------TESTIMONTIALS-------------------------------->
+<section id="testimonials" class="py-5 text-light text-center position-relative">
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="./Videos/video.mp4" type="video/mp4">
+  </video>
+  <div class="layout position-absolute"></div>
+  <div class="title m-auto">
+    <h2>WE SERVE YOU THE BEST FOOD</h2>
+    <hr class="border-0 d-block">
+  </div>
+  <div class="space m-auto">
+    <div class="content d-flex flex-column">
+      <div class="part part1 m-auto ">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+
+      </div>
+      <div class="part part2">
+        <div class="box">
+          <div class="item">
+            <img src="./images/icons/one-icon.png">
+            <p>20<sup>+</sup></p>
+            <h3>Years Experience</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="item">
+            <img src="./images/icons/food-icon.png">
+            <p>56<sup>+</sup></p>
+            <h3>Menu Variant</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="item">
+            <img src="./images/icons/restaurant-location-icon.png">
+            <p>12<sup>+</sup></p>
+            <h3>Restaurant Branch</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="item">
+            <img src="./images/icons/chef-icon.png">
+            <p>24<sup>+</sup></p>
+            <h3>Professional Chef</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-------------------------MENU-------------------------------->
+<div id="menu" class="py-5">
+<div class="head mb-5">
+<h4>Order Now</h4>
+<p class="text-light fs-2 fw-bold">Our Menu</p>
+<div class="decoration d-flex justify-content-center align-items-center">
+<span class="bg-light"></span>
+<img src="./images/btm-style.png" alt="">
+<span class="bg-light"></span>
+</div>
+</div>
+<div class="content d-flex">
+<div class="cover">                  <!--TEXT-->
+  <ul class="nav nav-tabs overflow-hidden" id="myTab" role="tablist">      
+  <li class="nav-item d-flex justify-content-center align-items-center" role="presentation">
+    <button class="nav-link text-centre text-light active" id="Pizza-tab" data-bs-toggle="tab" data-bs-target="#Pizza-tab-pane" type="button" role="tab" aria-controls="Pizza-tab-pane" aria-selected="true">
+    <img src="./images/icons/pizza-icon.png">
+    <h3>Pizza</h3>
+    </button>
+  </li>
+  <li class="nav-item d-flex justify-content-center align-items-center" role="presentation">
+    <button class="nav-link text-centre text-light d-block position-relative" id="Burgers-tab" data-bs-toggle="tab" data-bs-target="#Burgers-tab-pane" type="button" role="tab" aria-controls="Burgers-tab-pane" aria-selected="false">
+      <img src="./images/icons/hamburger-icon.png">
+      <h3>Burgers</h3>
+    </button>
+  </li>
+  <li class="nav-item d-flex justify-content-center align-items-center" role="presentation">
+    <button class="nav-link text-centre text-light d-block position-relative" id="Chickens-tab" data-bs-toggle="tab" data-bs-target="#Chickens-tab-pane" type="button" role="tab" aria-controls="Chickens-tab-pane" aria-selected="false">
+      <img src="./images/icons/chicken-icon.png">
+      <h3>Chickens</h3>
+    </button>
+  </li>
+  <li class="nav-item d-flex justify-content-center align-items-center" role="presentation">
+    <button class="nav-link text-centre text-light d-block position-relative" id="Taco-tab" data-bs-toggle="tab" data-bs-target="#Taco-tab-pane" type="button" role="tab" aria-controls="Taco-tab-pane" aria-selected="false">
+      <img src="./images/icons/taco-icon.png">
+      <h3>Taco</h3>
+    </button>
+  </li>
+  <li class="nav-item d-flex justify-content-center align-items-center" role="presentation">
+    <button class="nav-link text-centre text-light d-block position-relative" id="Salad-tab" data-bs-toggle="tab" data-bs-target="#Salad-tab-pane" type="button" role="tab" aria-controls="Salad-tab-pane" aria-selected="false">
+      <img src="./images/icons/salad-icon.png">
+      <h3>Salad</h3>
+    </button>
+  </li>
+  <li class="nav-item d-flex justify-content-center align-items-center" role="presentation">
+    <button class="nav-link text-centre text-light d-block position-relative" id="Fries-tab" data-bs-toggle="tab" data-bs-target="#Fries-tab-pane" type="button" role="tab" aria-controls="Fries-tab-pane" aria-selected="false">
+      <img src="./images/icons/fried-potatoes-icon.png">
+      <h3>Fries</h3>
+    </button>
+  </li>
+  <li class="nav-item d-flex justify-content-center align-items-center" role="presentation">
+    <button class="nav-link text-centre text-light d-block position-relative" id="Drinks-tab" data-bs-toggle="tab" data-bs-target="#Drinks-tab-pane" type="button" role="tab" aria-controls="Drinks-tab-pane" aria-selected="false">
+      <img src="./images/icons/drink-icon.png">
+      <h3>Drinks</h3>
+    </button>
+  </li>
+</ul>
+</div>
+<div class="tab-content" id="myTabContent">         <!--CONTENT-->
+<!--------------PIZA-------------->
+          <div class="tab-pane fade show active" id="Pizza-tab-pane" role="tabpanel" aria-labelledby="Pizza-tab" tabindex="0">
+            <div class="row text-light">
+              <!--    350=>    -->
+              <!--    450=>    -->
+              <!--    650=>small  -->
+              <!--    850=>mediam    -->
+              <!--    1050=>large    -->
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-3 p-4">
+                  <div class="head">
+                    <img src="./images/menu/pizza/1.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Pizza Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-3 p-4">
+                  <div class="head">
+                    <img src="./images/menu/pizza/2.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Pizza Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-3 p-4">
+                  <div class="head">
+                    <img src="./images/menu/pizza/3.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Pizza Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-3 p-4">
+                  <div class="head">
+                    <img src="./images/menu/pizza/4.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Pizza Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-3 p-4">
+                  <div class="head">
+                    <img src="./images/menu/pizza/5.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Pizza Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-3 p-4">
+                  <div class="head">
+                    <img src="./images/menu/pizza/6.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Pizza Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-3 p-4">
+                  <div class="head">
+                    <img src="./images/menu/pizza/7.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Pizza Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-3 p-4">
+                  <div class="head">
+                    <img src="./images/menu/pizza/8.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Pizza Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--------------BURGER-------------->
+          <div class="tab-pane fade" id="Burgers-tab-pane" role="tabpanel" aria-labelledby="Burgerse-tab" tabindex="0">
+            <div class="row m-0 text-light">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/burger/1.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Burger Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/burger/2.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Burger Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/burger/3.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Burger Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/burger/4.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Burger Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/burger/5.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Burger Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/burger/6.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Burger Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/burger/7.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Burger Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/burger/8.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Burger Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--------------CHICKENS-------------->
+          <div class="tab-pane fade" id="Chickens-tab-pane" role="tabpanel" aria-labelledby="Chickens-tab" tabindex="0">
+            <div class="row m-0 text-light">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/chicken/1.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Chicken Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/chicken/2.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Chicken Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/chicken/3.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Chicken Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/chicken/4.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Chicken Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/chicken/5.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Chicken Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/chicken/6.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Chicken Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/chicken/7.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Chicken Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/chicken/8.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Chicken Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--------------TACO-------------->
+          <div class="tab-pane fade" id="Taco-tab-pane" role="tabpanel" aria-labelledby="Taco-tab" tabindex="0">
+            <div class="row m-0 text-light">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/taco/1.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Taco Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/taco/2.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Taco Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/taco/3.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Taco Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/taco/4.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Taco Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/taco/5.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Taco Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/taco/6.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Taco Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/taco/7.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Taco Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/taco/8.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Taco Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--------------SALAD-------------->
+          <div class="tab-pane fade" id="Salad-tab-pane" role="tabpanel" aria-labelledby="Salade-tab" tabindex="0">
+            <div class="row m-0 text-light">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/salad/1.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Salad Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/salad/2.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Salad Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/salad/3.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Salad Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/salad/4.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Salad Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/salad/5.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Salad Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/salad/6.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Salad Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/salad/7.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Salad Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/salad/8.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Salad Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--------------FRIES-------------->
+          <div class="tab-pane fade" id="Fries-tab-pane" role="tabpanel" aria-labelledby="Fries-tab" tabindex="0">
+            <div class="row m-0 text-light">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/fries/1.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Fries Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/fries/2.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Fries Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/fries/3.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Fries Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/fries/4.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Fries Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/fries/5.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Fries Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/fries/6.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Fries Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/fries/7.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Fries Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/fries/8.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Fries Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--------------DRINKS-------------->
+          <div class="tab-pane fade" id="Drinks-tab-pane" role="tabpanel" aria-labelledby="Drinks-tab" tabindex="0">
+            <div class="row m-0 text-light">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/drink/1.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Drink Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/drink/2.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Drink Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/drink/3.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Drink Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/drink/4.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Drink Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/drink/5.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Drink Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="../images/menu/drink/6.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Drink Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/drink/7.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Drink Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item text-center mb-4 py-2 px-3">
+                  <div class="head">
+                    <img src="./images/menu/drink/8.png" alt="" class="img-fluid">
+                    <h3 class="mb-4 fs-4">Drink Item</h3>
+                  </div>
+                  <div class="body">
+                    <div class="row text-start size mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Size :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p class="fs-6">Regular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start rate overflow-hidden mb-3">
+                      <div class="col-3">
+                        <div class="info">
+                          <p class="fs-6">Rate:</p>
+                        </div>
+                      </div>
+                      <div class="col-9 ">
+                        <div class="info">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row text-start price overflow-hidden mb-3">
+                      <div class="col-4">
+                        <div class="info">
+                          <p class="fs-6">Price :</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="info">
+                          <p>40 <sup>$</sup></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+</div>
+</div>
+</div>
+  <!-------------------------CHEFS-------------------------------->
+<div id="chefs" class="py-5">
+<div class="head mb-5">
+<h4>Team</h4>
+<p class="text-light fs-2 fw-bold">Our Chefs</p>
+<div class="decoration d-flex justify-content-center align-items-center">
+<span class="bg-light"></span>
+<img src="./images/btm-style.png" alt="">
+<span class="bg-light"></span>
+</div>
+</div>
+<div class="container">
+    <div class="content mt-5">
+  <div class="row pb-5">
+    <div class="col-md-4 box">
+    <div class="item">
+      <img src="./images/team/Chef1.png">
+      <div class="caption">
+        <p>Lucas Bennett</p>
+        <h4>Senior Chef</h4>
+      </div>
+    </div>
+  </div>
+    <div class="col-md-4 box">
+    <div class="item">
+      <img src="./images/team/Chef2.png">
+      <div class="caption">
+        <p>Andre Smith</p>
+        <h4>Professor</h4>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-4 box">
+    <div class="item">
+      <img src="./images/team/Chef3.png">
+      <div class="caption">
+        <p>Nathaniel Hughes</p>
+        <h4>Master Chef</h4>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+    </div>
+  </div>
+  <!-------------------------ORDER-------------------------------->
+<div id="order">
+  <div class="head mb-5">
+<h4>Delivery Now</h4>
+<p class="text-light fs-2 fw-bold">Get Your Meal</p>
+<div class="decoration d-flex justify-content-center align-items-center">
+<span class="bg-light"></span>
+<img src="./images/btm-style.png" alt="">
+<span class="bg-light"></span>
+</div>
+</div>
+<div class="container">
+  <div class="content">
+  <div class="row">
+    <div class="col-lg-6 col-sm-6 part1">
+        <h3>Order Now</h3>
+        <div class="name">
+          <i class="fa-regular fa-user"></i>
+          <input name="name" placeholder="Enter Your Name" type="text" required>
+        </div>
+        <div class="number">
+          <i class="fa-solid fa-phone"></i>
+          <input name="number" placeholder="Enter Your Number" required type="text">
+        </div>
+        <div class="date">
+          <input type="date" name="date">
+          <i class="fa-regular fa-calendar"></i>
+        </div>
+        <div class="time">
+          <input type="time" name="time">
+          <i class="fa-regular fa-clock"></i>
+        </div>
+        <div class="order">
+          <i class="fas fa-concierge-bell"></i>
+          <textarea placeholder="Write Your Order" required name="order"></textarea>
+        </div>
+        <div class="button">
+          <a href="#home"><span>Order</span></a>
+        </div>
+    </div>
+    <div class="col-lg-6 col-sm-6 d-none d-md-block part2  mt-md-5 mt-lg-5">
+        <img src="./images/delivery-man.png">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+  <!-------------------------FoOTER-------------------------------->
+<footer class=" py-3 text-light text-center">
+© 2021 SemiCode, Ltd. | All Rights Reserved .
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
