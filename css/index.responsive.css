@@ -1,0 +1,922 @@
+/*350*/
+@media (max-width:370px) {
+.slide-one .slide-content{
+width:100%;
+}
+.slide-one h1{
+font-size:2rem;
+margin-bottom: -10px;
+}
+.slide-one p{
+width:90%;
+}
+.slide-two .container{
+padding-top:75px;
+}
+.slide-two .pizza-image{
+    top: -20px;
+}
+.slide-two .pizza-main,
+.slide-three .burger-image{
+display:none;
+}
+.slide-two .offer-title{
+font-size:2.7rem;
+}
+.slide-two .offer-box p{
+font-size:15px;
+}
+.slide-two .offer-box h3{
+font-size:18px;
+}
+.burger-content p.title{
+font-size:1.5rem;
+}
+.burger-content>p:not(.title){
+font-size:11px;
+margin-bottom:20px;
+}
+.slide-two .offer-box p.phone{
+    font-size: 20px;
+}
+.food-icons{
+justify-content:space-evenly;
+gap:15px;
+}
+.food-item img{
+width:50px;
+height:50px;
+}
+.food-item h3{
+font-size:.9rem;
+}
+.custom-control{
+width:35px;
+height:35px;
+bottom:3%;
+}
+.carousel-control-next.custom-control{
+left:auto;
+right:5%;
+}
+.carousel-control-prev.custom-control{
+left:auto;
+right:calc(5% + 45px);
+}
+#testimonials .title{
+    width: 100%;
+    margin: auto;
+}
+#testimonials .title h2{
+    font-size: 1.2rem;
+    width: 100%;
+    display: block;
+}
+#testimonials .title hr{
+    width: 25%;
+    margin: 15px auto 30px;
+}
+#testimonials .space{
+    width: 95%;
+}
+#testimonials .space .content .part1{
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+#testimonials .space .content .part1 p{
+    width: 100%;
+    display: block;
+    font-size: .8rem;
+    margin: 0;
+}
+#testimonials .space .content .part2 .box{
+    width: 280px;
+    margin: auto;
+}
+#testimonials .space .content .part2 .box:not(:last-child) .item{
+    margin-right: 0px;
+}
+#testimonials .space .content .part2 .box .item{
+    margin:0px auto 20px;
+    display: block;
+}
+    #testimonials .bg-video{
+        display: none;
+    }
+  #Menu .content {
+    flex-direction: column;
+  }
+  #Menu .cover {
+    overflow: auto;
+  }
+  #menu .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #menu .content .cover {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  #menu .content .nav-tabs {
+    width: fit-content;
+    max-width: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-inline: auto;
+    overflow: visible;
+  }
+  #menu .content .nav-tabs .nav-item {
+    width: auto;
+    min-width: 90px;
+    flex: 0 0 auto;
+    border-bottom: none;
+    border-right: 1px solid #fff;
+  }
+  #menu .content .nav-tabs .nav-item:last-child {
+    border-right: none;
+  }
+  #menu .content .nav-tabs .nav-item button {
+    width: auto;
+    min-width: 90px;
+    height: 100px;
+    padding: 10px 15px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  #menu .content .tab-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #menu .content .nav-tabs .nav-item .nav-link.active::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #fff;
+  }
+#chefs .container .content .box{
+    width: 280px;
+    margin: auto;
+}
+#chefs .container .content .box .item{
+    margin: 0px 0px;
+    margin-bottom: 50px;
+}
+#chefs .container .content .box .item p{
+    font-size: 1.2rem;
+}
+#order .container .content .part1{
+    width: 250px;
+}
+#order .container .content .part1 .name,
+#order .container .content .part1 .number,
+#order .container .content .part1 .date,
+#order .container .content .part1 .time,
+#order .container .content .part1 .order{
+    width: 95%;
+}
+#order .container .content .part1 .button a{
+    width: 95%;
+}
+#order .container .content .part2{
+    display: none;
+}
+}
+
+/*450*/
+@media (min-width:371px) and (max-width:576px){
+.slide-one .slide-content{
+width:100%;
+}
+.slide-one h1{
+font-size:2.8rem;
+margin-bottom: -10px;
+}
+.slide-one p{
+width:90%;
+}
+.slide-two .container{
+padding-top:75px;
+}
+.slide-two .pizza-image{
+    top: -15px;
+}
+.slide-two .pizza-main,
+.slide-three .burger-image{
+display:none;
+}
+.slide-two .offer-title{
+font-size:3rem;
+}
+.slide-two .offer-box p{
+font-size:16px;
+}
+.slide-two .offer-box p.phone{
+font-size:20px;
+}
+.burger-content p.title{
+font-size:1.7rem;
+}
+.burger-content>p:not(.title){
+font-size:12px;
+margin-bottom:20px;
+}
+.food-icons{
+justify-content:space-evenly;
+gap:20px;
+}
+.custom-control{
+width:40px;
+height:40px;
+bottom:3%;
+}
+.carousel-control-next.custom-control{
+left:auto;
+right:5%;
+}
+.carousel-control-prev.custom-control{
+left:auto;
+right:calc(5% + 50px);
+}
+#testimonials .title{
+    width: 100%;
+    margin: auto;
+}
+#testimonials .title h2{
+    font-size: 1.2rem;
+    width: 100%;
+    display: block;
+}
+#testimonials .title hr{
+    width: 25%;
+    margin: 15px auto 30px;
+}
+#testimonials .space{
+    width: 95%;
+}
+#testimonials .space .content .part1{
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+#testimonials .space .content .part1 p{
+    width: 100%;
+    display: block;
+    font-size: .8rem;
+    margin: 0;
+}
+#testimonials .space .content .part2 .box{
+    width: 280px;
+    margin: auto;
+}
+#testimonials .space .content .part2 .box:not(:last-child) .item{
+    margin-right: 0px;
+}
+#testimonials .space .content .part2 .box .item{
+    margin:0px auto 20px;
+    display: block;
+}
+#testimonials .space{
+    width: 90%;
+}
+#testimonials .space .content .part2 .box{
+    width: 300px;
+    margin: auto;
+}
+    #testimonials .bg-video{
+        display: none;
+    }
+  #Menu .content {
+    flex-direction: column;
+  }
+  #Menu .cover {
+    overflow: auto;
+  }
+  #menu .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #menu .content .cover {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  #menu .content .nav-tabs {
+    width: fit-content;
+    max-width: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-inline: auto;
+    overflow: visible;
+  }
+  #menu .content .nav-tabs .nav-item {
+    width: auto;
+    min-width: 90px;
+    flex: 0 0 auto;
+    border-bottom: none;
+    border-right: 1px solid #fff;
+  }
+  #menu .content .nav-tabs .nav-item:last-child {
+    border-right: none;
+  }
+  #menu .content .nav-tabs .nav-item button {
+    width: auto;
+    min-width: 90px;
+    height: 100px;
+    padding: 10px 15px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  #menu .content .tab-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #menu .content .nav-tabs .nav-item .nav-link.active::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #fff;
+  }
+#chefs .container .content .box{
+    max-width: 280px;
+    margin: auto;
+}
+#chefs .container .content .box .item{
+    margin: 0px 0px;
+    margin-bottom: 50px;
+}
+#chefs .container .content .box .item p{
+    font-size: 1.2rem;
+}
+#order .container .content .part1{
+    width: 300px;
+}
+#order .container .content .part1 .name,
+#order .container .content .part1 .number,
+#order .container .content .part1 .date,
+#order .container .content .part1 .time,
+#order .container .content .part1 .order{
+    width: 95%;
+}
+#order .container .content .part1 .button a{
+    width: 95%;
+}
+#order .container .content .part2{
+    display: none;
+}
+#order .container .content .part1{
+    max-width: 300px;
+}
+}
+
+
+/*650*/
+@media (min-width:577px) and (max-width:768px){
+.slide-one .slide-content{
+width:100%;
+}
+.slide-one h1{
+font-size:3.2rem;
+margin-bottom: -10px;
+}
+.slide-one p{
+width:80%;
+}
+.slide-two .container,
+.slide-three .container{
+padding-top:80px;
+}
+.slide-two .pizza-image{
+    top: -20px;
+}
+.slide-two .pizza-main,
+.slide-three .burger-image{
+display:none;
+}
+.slide-two .offer-title{
+font-size:3.5rem;
+}
+.burger-content p.title{
+font-size:2rem;
+}
+.burger-content>p:not(.title){
+font-size:13px;
+}
+.food-icons{
+justify-content:space-evenly;
+gap:25px;
+}
+.custom-control{
+width:40px;
+height:40px;
+bottom:3%;
+}
+.carousel-control-next.custom-control{
+left:auto;
+right:5%;
+}
+.carousel-control-prev.custom-control{
+left:auto;
+right:calc(5% + 50px);
+}
+#testimonials .title{
+    width: 100%;
+    margin: auto;
+}
+#testimonials .title h2{
+    font-size: 1.2rem;
+    width: 100%;
+    display: block;
+}
+#testimonials .title hr{
+    width: 25%;
+    margin: 15px auto 30px;
+}
+#testimonials .space{
+    width: 95%;
+}
+#testimonials .space .content .part1{
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+#testimonials .space .content .part1 p{
+    width: 100%;
+    display: block;
+    font-size: .8rem;
+    margin: 0;
+}
+#testimonials .space .content .part2 .box{
+    width: 280px;
+    margin: auto;
+}
+#testimonials .space .content .part2 .box:not(:last-child) .item{
+    margin-right: 0px;
+}
+#testimonials .space .content .part2 .box .item{
+    margin:0px auto 20px;
+    display: block;
+}
+#testimonials .space{
+    width: 90%;
+}
+#testimonials .space .content .part2 .box{
+    width: 300px;
+    margin: auto;
+}
+#testimonials .space .content .part2{gap: 5px;}
+#testimonials .space .content .part2 .box{
+    width: 45%;
+}
+#testimonials .title{
+    width: 100%;
+    margin: auto;
+}
+#testimonials .title h2{
+    font-size: 1.5rem;
+    width: 100%;
+    display: block;
+}
+#testimonials .title hr{
+    width: 15%;
+    margin: 15px auto 30px;
+}
+#testimonials .space{
+    width: 85%;
+}
+#testimonials .space .content .part1{
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+#testimonials .space .content .part1 p{
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    margin: 0;
+}
+#testimonials .space .content .part2 .box:not(:last-child) .item{
+    margin-right: 0px;
+}
+    #testimonials .bg-video{
+        display: none;
+    }
+  #Menu .content {
+    flex-direction: column;
+  }
+  #Menu .cover {
+    overflow: auto;
+  }
+  #menu .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #menu .content .cover {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  #menu .content .nav-tabs {
+    width: fit-content;
+    max-width: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-inline: auto;
+    overflow: visible;
+  }
+  #menu .content .nav-tabs .nav-item {
+    width: auto;
+    min-width: 90px;
+    flex: 0 0 auto;
+    border-bottom: none;
+    border-right: 1px solid #fff;
+  }
+  #menu .content .nav-tabs .nav-item:last-child {
+    border-right: none;
+  }
+  #menu .content .nav-tabs .nav-item button {
+    width: auto;
+    min-width: 90px;
+    height: 100px;
+    padding: 10px 15px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  #menu .content .tab-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #menu .content .nav-tabs .nav-item .nav-link.active::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #fff;
+  }
+#chefs .container .content .box{
+    max-width: 280px;
+    margin: auto;
+}
+#chefs .container .content .box .item{
+    margin: 0px 0px;
+    margin-bottom: 50px;
+}
+#chefs .container .content .box .item p{
+    font-size: 1.2rem;
+}
+#order .container .content .part1{
+    width: 550px;
+}
+}
+
+/*850*/
+@media (min-width:769px) and (max-width:991px){
+.slide-one .slide-content{
+width:80%;
+}
+.slide-one h1{
+font-size:4rem;
+margin-bottom: -10px;
+}
+.slide-two .container{
+padding-top:90px;
+}
+.slide-three .container{
+    padding-top: initial;
+    padding-top: 70px;
+}
+.slide-two .offer-title{
+font-size:3rem;
+}
+.burger-content p.title{
+font-size:2rem;
+}
+.food-icons{
+gap:25px;
+margin-top: -10px;
+}
+.custom-control{
+bottom:5%;
+}
+.carousel-control-next.custom-control{
+left:auto;
+right:5%;
+}
+.carousel-control-prev.custom-control{
+left:auto;
+right:calc(5% + 60px);
+}
+#testimonials .space .content .part2 .box .item h3{
+    font-size: .7rem;
+}
+#testimonials .title{
+    width: 100%;
+    margin: auto;
+}
+#testimonials .title h2{
+    font-size: 1.2rem;
+    width: 100%;
+    display: block;
+}
+#testimonials .title hr{
+    width: 25%;
+    margin: 15px auto 30px;
+}
+#testimonials .space{
+    width: 95%;
+}
+#testimonials .space .content .part1{
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+#testimonials .space .content .part1 p{
+    width: 100%;
+    display: block;
+    font-size: .8rem;
+    margin: 0;
+}
+#testimonials .space .content .part2 .box{
+    width: 280px;
+    margin: auto;
+}
+#testimonials .space .content .part2 .box:not(:last-child) .item{
+    margin-right: 0px;
+}
+#testimonials .space .content .part2 .box .item{
+    margin:0px auto 20px;
+    display: block;
+}
+#testimonials .space{
+    width: 90%;
+}
+#testimonials .space .content .part2 .box{
+    width: 300px;
+    margin: auto;
+}
+#testimonials .space .content .part2{gap: 5px;}
+#testimonials .space .content .part2 .box{
+    width: 45%;
+}
+#testimonials .title{
+    width: 100%;
+    margin: auto;
+}
+#testimonials .title h2{
+    font-size: 1.5rem;
+    width: 100%;
+    display: block;
+}
+#testimonials .title hr{
+    width: 15%;
+    margin: 15px auto 30px;
+}
+#testimonials .space{
+    width: 85%;
+}
+#testimonials .space .content .part1{
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+#testimonials .space .content .part1 p{
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    margin: 0;
+}
+#testimonials .space .content .part2 .box:not(:last-child) .item{
+    margin-right: 0px;
+}
+#testimonials .space .content .part2{
+    gap: 5px;
+}
+#testimonials .space .content .part2 .box{
+    width: 23%;
+}
+#testimonials .title{
+    width: 100%;
+    margin: auto;
+}
+#testimonials .title h2{
+    font-size: 2rem;
+    width: 100%;
+    display: block;
+}
+#testimonials .title hr{
+    width: 20%;
+    margin: 15px auto 30px;
+}
+#testimonials .space{
+    width: 85%;
+}
+#testimonials .space .content .part1{
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+#testimonials .space .content .part1 p{
+    width: 90%;
+    display: block;
+    font-size: .9rem;
+    margin: 0;
+    margin: auto;
+    text-align: center;
+}
+#testimonials .space .content .part2 .box:not(:last-child) .item{
+    margin-right: 0px;
+}
+#testimonials .space .content .part2 .box .item h3{
+    font-size: .8rem;
+}
+    #testimonials video {
+        display: initial;
+    }
+      #Menu .content {
+    flex-direction: column;
+  }
+  #Menu .cover {
+    overflow: auto;
+  }
+  #menu .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #menu .content .cover {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  #menu .content .nav-tabs {
+    width: fit-content;
+    max-width: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-inline: auto;
+    overflow: visible;
+  }
+  #menu .content .nav-tabs .nav-item {
+    width: auto;
+    min-width: 90px;
+    flex: 0 0 auto;
+    border-bottom: none;
+    border-right: 1px solid #fff;
+  }
+  #menu .content .nav-tabs .nav-item:last-child {
+    border-right: none;
+  }
+  #menu .content .nav-tabs .nav-item button {
+    width: auto;
+    min-width: 90px;
+    height: 100px;
+    padding: 10px 15px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  #menu .content .tab-content {
+    width: 100%;
+    margin-top: 20px;
+}
+  #menu .content .nav-tabs .nav-item .nav-link.active::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #fff;
+  }
+#chefs .container .content .box .item p{
+    font-size: .8rem;
+}
+#order .container .content .part1 .name,
+#order .container .content .part1 .number,
+#order .container .content .part1 .date,
+#order .container .content .part1 .time,
+#order .container .content .part1 .order{
+    width: 95%;
+}
+#order .container .content .part1 .button a{
+    width: 95%;
+}
+#order .container .content .part1{
+    width: initial;
+}
+#order .container .content .part2{
+    display: initial;
+}
+#order .container .content .part2 img{
+    width: 100%;
+}
+}
+
+/*1050*/
+@media (min-width:992px) and (max-width:1180px){
+.slide-one .slide-content{
+width:80%;
+}
+.slide-one h1{
+font-size:4rem;
+margin-bottom: -10px;
+}
+.slide-two .container{
+padding-top:90px;
+}
+.slide-three .container{
+    padding-top: initial;
+    padding-top: 40px;
+}
+.slide-two .offer-title{
+font-size:4rem;
+}
+.burger-content p.title{
+font-size:2.3rem;
+}
+.food-icons{
+gap:25px;
+}
+.custom-control{
+bottom:5%;
+}
+.carousel-control-next.custom-control{
+left:auto;
+right:5%;
+}
+.carousel-control-prev.custom-control{
+left:auto;
+right:calc(5% + 60px);
+}
+#testimonials .space .content .part2 .box .item h3{
+    font-size: 1.2rem;
+}
+#testimonials .space .content .part2 .box{
+    width: 24%;
+}
+#testimonials .title h2{
+    font-size: 2.3rem;
+    width: 100%;
+    display: block;
+}
+#testimonials .space .content .part1 p{
+    width: 90%;
+    font-size: 1rem;
+    }
+#chefs .container .content .box .item p{
+    font-size: 1rem;
+}
+}
+
+/*LARGE SCREENS*/
+@media (min-width:1181px) and (max-width:1300px){
+.slide-two .container,
+.slide-three .container{
+padding-top:30px;
+}
+.slide-one h1{
+font-size:4rem;
+margin-bottom: -10px;
+}
+.custom-control{
+bottom:7%;
+}
+.carousel-control-next.custom-control{
+left:auto;
+right:5%;
+}
+.carousel-control-prev.custom-control{
+left:auto;
+right:calc(5% + 60px);
+}
+#chefs .container .content .box .item p{
+    font-size:1.1rem;
+}
+}

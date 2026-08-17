@@ -1,0 +1,46 @@
+/*-------------ANIMATE 1------------------*/
+@keyframes homeZoom{
+from{
+background-size:cover;
+}
+to{
+background-size:110%;
+}
+}
+/*-------------ANIMATE 2------------------*/
+@keyframes animate-2{
+    0%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+/*-------------ANIMATE 3------------------*/
+@keyframes animate-3{
+    0%{
+    opacity: 0;
+    left: 0;
+    transform: translateY(30px);
+    }
+
+50% {
+    left: 0;
+    opacity: 1;
+    transform: translateY(0);
+}
+100% {
+    opacity: 1;
+    left: 200%;
+    transform: translateY(0);
+}}
+/*-------------ANIMATE 4------------------*/
+@keyframes pizzaRotate{
+from{
+transform:rotate(0deg);
+}
+to{
+transform:rotate(360deg);
+}
+}

@@ -1,0 +1,42 @@
+    /*-------------------------------BODY-----------------------------------------*/
+body{
+margin:0;
+font-family:"Poppins",sans-serif;
+}
+    /*-------------------------------h-----------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family:  Dancing Script, cursive;
+}
+a{
+text-decoration:none;
+}
+    /*------------------------------COLORS-----------------------------------------*/
+:root{
+--main-color:#f1b601;
+--dark-color:#0f2027;
+}
+/*-----------------------------------SCROLL BAR-------------------------------------*/
+html::-webkit-scrollbar {
+  width: 15px;
+}
+html::-webkit-scrollbar-track {
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  );
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 10px;
+}
+/*------------------------------ALL ELEMENTS----------------------*/
+*{
+box-sizing:border-box;
+}
